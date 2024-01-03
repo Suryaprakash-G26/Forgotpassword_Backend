@@ -22,7 +22,7 @@ router.post("/", async (req, res) => {
     user.token = token;
     await user.save();
 
-    const resetPasswordLink = `${process.env.backend}/forgotpassword/${encodedToken}`;
+    const resetPasswordLink = `${process.env.backend}forgotpassword/${encodedToken}`;
 
     const reset = await ForgotpasswordLink(email, resetPasswordLink);
 
