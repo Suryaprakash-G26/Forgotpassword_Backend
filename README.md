@@ -1,29 +1,17 @@
-# Petty Cash Manager
-
-Welcome to the Petty Cash Manager! This Node.js project helps you manage and keep track of petty cash expenses.
+# Forgot Password Feature
 
 ## Overview
 
-Petty Cash Manager is a simple application designed to streamline the management of petty cash expenses. It allows users to add, edit, delete, and view expenses easily.
+This repository contains the implementation of the "Forgot Password" feature for our application. The purpose of this feature is to provide users with a secure and convenient way to reset their passwords in case they forget them.
 
 ## Features
 
-- **User Authentication:** Secure user authentication system for managing petty cash.
-- **Expense Management:** Users can add, edit, and delete expenses.
-- **Expense Listing:** View a list of all expenses along with details.
-- **Total Calculation:** Automatically calculates the total amount for each expense.
+- **Password Reset Request:** Users can initiate a password reset by providing their email address.
+- **Email Notification:** Once a password reset request is received, an email is sent to the user's registered email address with a unique link for password reset.
+- **Password Reset Page:** Users can click on the provided link in the email to access a secure page where they can reset their password.
+- **Token Expiry:** The password reset link is time-sensitive and expires after a predefined period for security reasons.
+- **Strong Password Policy:** Enforce a strong password policy to enhance security.
 
-## Usage
-
-1. **User Registration:**
-
-    - Users need to register for an account to manage petty cash expenses.
-
-2. **Expense Management:**
-
-    - Add new expenses with details such as title, category, price, quantity, description, and date.
-    - View a list of all expenses.
-    - Edit or delete existing expenses.
 
 ## Technologies Used
 
@@ -48,11 +36,10 @@ Explain how authentication is handled in your application.
 
 ## Live API
 
-[Click to Open the Live API](https://petty-cash-backend-w7d0.onrender.com)
+[Click to Open the Live API](https://forgotpasswoed.onrender.com)
 
-## Features
 ## Demo
-![image](https://github.com/Suryaprakash-G26/Pettycash-Manager-Backend/assets/141228691/76887b1a-ec9b-412a-b271-0fd5cc0c04c6)
+![image](https://github.com/Suryaprakash-G26/Forgotpassword_Backend/assets/141228691/d72aa86b-d506-4ada-8da9-444a2a696a46)
 
 
 ## Contact
